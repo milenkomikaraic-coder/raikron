@@ -1,0 +1,6 @@
+{
+  "modelId": "tinyllama",
+  "source": "hf://TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "checksum": null,
+  "priority": null
+}

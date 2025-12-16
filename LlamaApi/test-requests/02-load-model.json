@@ -1,0 +1,7 @@
+{
+  "modelId": "tinyllama",
+  "nCtx": 2048,
+  "batch": 512,
+  "nGpuLayers": 0,
+  "offload": null
+}

@@ -1,0 +1,10 @@
+bin/
+obj/
+*.user
+*.suo
+*.cache
+data/
+Infrastructure/Data/Store/Database/Local/
+logs/
+Infrastructure/Data/LLMs/*.gguf
+!Infrastructure/Data/LLMs/.gitkeep

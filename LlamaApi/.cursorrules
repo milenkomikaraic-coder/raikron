@@ -1,0 +1,31 @@
+# Cursor Rules for Llama API Project
+
+## Project Context
+This is a .NET 9 Minimal API project for local LLM inference using llama.cpp via LLama.NET.
+
+## Code Style
+- Use C# 12 features (records, primary constructors where appropriate)
+- Follow .NET Minimal API patterns
+- Use dependency injection for all services
+- Prefer async/await for I/O operations
+- Use Serilog for logging
+- Follow RESTful API conventions
+
+## Architecture
+- Services in `Services/` directory
+- Middleware in `Middleware/` directory
+- DTOs as public records in Program.cs
+- SQLite for model registry and jobs
+- JWT authentication required on all endpoints
+
+## Important Notes
+- Models stored in `Infrastructure/Data/LLMs/` directory
+- Default model: Qwen Coder 7B (auto-downloads on startup)
+- Chat templates: Qwen uses `<|im_start|>` format, TinyLlama uses `<|system|>` format
+- Hardware detection: DirectML → CUDA → CPU fallback
+- All endpoints require JWT authentication
+
+## Testing
+- Use Swagger UI at root URL for API testing
+- Test JSON files in `test-requests/` directory
+- Check logs in `logs/` directory

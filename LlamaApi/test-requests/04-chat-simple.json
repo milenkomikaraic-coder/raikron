@@ -1,0 +1,11 @@
+{
+  "modelId": "tinyllama",
+  "sessionId": null,
+  "messages": null,
+  "prompt": "Hello, how are you?",
+  "maxTokens": 100,
+  "temperature": 0.7,
+  "topP": 0.95,
+  "stop": null,
+  "nCtx": null
+}

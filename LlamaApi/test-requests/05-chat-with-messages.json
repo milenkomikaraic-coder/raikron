@@ -1,0 +1,24 @@
+{
+  "modelId": "tinyllama",
+  "sessionId": "session-123",
+  "messages": [
+    {
+      "role": "user",
+      "content": "What is the capital of France?"
+    },
+    {
+      "role": "assistant",
+      "content": "The capital of France is Paris."
+    },
+    {
+      "role": "user",
+      "content": "What is the population of Paris?"
+    }
+  ],
+  "prompt": null,
+  "maxTokens": 200,
+  "temperature": 0.8,
+  "topP": 0.9,
+  "stop": ["\n\n"],
+  "nCtx": 4096
+}

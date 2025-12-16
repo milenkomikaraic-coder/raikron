@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.csdevkit",
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "ms-dotnettools.blazorwasm-companion",
+    "formulahendry.dotnet-test-explorer",
+    "redhat.vscode-yaml",
+    "ms-vscode.vscode-json"
+  ],
+  "unwantedRecommendations": []
+}
